@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+main{
+  display: grid;
+  gap: 2rem;
+  width: 62rem;
+  margin: auto;
+  text-align: center;
+}
+
+img{
+  margin: auto;
+}
+
+.text{
+  display: grid;
+  gap: 3.2rem;
+  margin-bottom: 7.2rem;
+}
+
+.text p{
+  line-height: 2.8rem;
+}
+
+span, .links a{
+  color: #FF9900;
+}
+
+h1{
+  font: 400 4.9rem 'Inter', sans-serif;
+}
+
+h1 span{
+  font-weight: 700;
+}
+
+p, .links{
+  font: 400 1.5rem 'Open Sans', sans-serif;
+  color: #7D7987;
+}
+p span{
+  font-weight: 700;
+}
+
+.links a{
+  margin-right: 3.2rem;
+}
+
+a{
+  text-decoration: none;
+}
