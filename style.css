@@ -50,7 +50,7 @@ p span{
   font-weight: 700;
 }
 
-.links a{
+.links a:nth-child(1){
   margin-right: 3.2rem;
 }
 
